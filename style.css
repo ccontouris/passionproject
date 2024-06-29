@@ -1,39 +1,55 @@
-h1 {
-    color: #73fff6
-}
+
 .intro {
-    height: 200px;
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    padding: auto;
+    text-align: center;
     display: inline-block;
     vertical-align: top;
     background-color: chartreuse;
-
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    left: 300px;
 }
-#morning {
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    background-color: rgb(226, 43, 43);
-    margin: 10px;
-    padding: 10px;
-    vertical-align: top;
+#dove {
+    position: relative;
+    max-width: 300px;
+    max-height: 300px;
+    
 }
 .why {
     display: block;
-    background-color: aquamarine;
     width: 60px;
-    margin: 0;
-    padding: 0;
-    position: fixed;
+    height: 20px;
+    margin: 10;
+    padding: 10;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    right: 10px;
 }
+.morewhy{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    left: 100px;
 
+}
 .community {
     height: 200px;
     width: 200px;
     margin: 10px;
     padding: 10px;
     display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.birdingspots {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 
 }
