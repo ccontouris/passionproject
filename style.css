@@ -48,17 +48,29 @@
     width: 80%;
 }
 .community {
-    height: 200px;
-    width: 200px;
-    margin: 0;
-    bottom: 20px;
     position: relative;
+    width: 200px;
+    bottom: 800px;
     font-family: 'Courier New', Courier, monospace;
-
+}
+.manybirds {
+    position: relative;
+    bottom: 1800px;
+    left: 200px;
+}
+.sparrow {
+position: relative;
+bottom: 2104px;
+left: 505px;
+}
+.parade {
+    position: relative;
+    bottom: 2408px;
+    left: 809px;
 }
 .birdingspots {
     position: fixed;
     bottom: 0;
     width: 75%;
-    left: 150px;
+    left: 650px;
 }
