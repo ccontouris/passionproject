@@ -18,3 +18,10 @@ async function getBirdMigration() {
 }
 
 getBirdMigration()
+
+
+// $('#dove').hover(function(){
+//     PlaySound('"C:\Users\ChrisitContouris\OneDrive - i.c.stars\Documents\Sound Recordings\Mourning Dove.m4a"');// calling playsound function
+// },function(){
+//     StopSound('"C:\Users\ChrisitContouris\OneDrive - i.c.stars\Documents\Sound Recordings\Mourning Dove.m4a"');// calling stopsound function
+// });
