@@ -1,11 +1,4 @@
-async function getBirdSightings() {
-    // var url = "https://birdcast.info/migration-tools/live-migration-maps/";
-
-    // var response = await fetch(url);
-
-    // var result = await response.json();
-
-    // var migration_element = document.getElementById("migration");
+async function getBirdMigration() {
     let headersList = {
         "Accept": "*/*",
         "x-ebirdapitoken": "tfdjg87simiq"
@@ -18,7 +11,7 @@ async function getBirdSightings() {
     
     let data = await response.json();
     let firstBird = data[0]
-    document.getElementById("sightings").innerHTML = firstBird.comName
+    document.getElementById("Migration").innerHTML = firstBird.comName
     console.log(data);
     
 
