@@ -1,76 +1,41 @@
 
 .intro {
-    position: relative;
-    height: fit-content;
-    width: 75%;
-    margin: auto;
-    padding: auto;
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
+    font-family: 'Courier New', Courier, monospace;
     background-color: chartreuse;
+}
+.firstbirdrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1px;
+}
+.whybirds{
+    display: inline-flex;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    left: 10%;
+    justify-content: left;
 }
-.dove {
-    position: relative;
-    
-}
-.redwinged {
-    position: relative;
-    bottom: 304px;
-    left: 301px;
-}
-.heron {
-    position: relative;
-    bottom: 608px;
-    left: 602px;
-}
-.grackle {
-    position: relative;
-    bottom: 912px;
-    left: 903px;
-}
-.why {
-    width: 20px;
-    height: 20px;
-    bottom: 940px;
-    position: relative;
-    font-family: 'Courier New', Courier, monospace;
-}
-.morewhy{
-    position: relative;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
-    left: 150px;
-    bottom: 960px;
-    width: 80%;
-}
+
 .community {
-    position: relative;
-    width: 200px;
-    bottom: 800px;
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
 }
-.manybirds {
-    position: relative;
-    bottom: 1800px;
-    left: 200px;
+.rowbirds {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    justify-content: right;
 }
-.sparrow {
-position: relative;
-bottom: 2104px;
-left: 505px;
-}
-.duck {
+.video {
     position: relative;
-    bottom: 2408px;
-    left: 809px;
+    left: 420px;
 }
 .birdingspots {
-    position: fixed;
-    bottom: 0;
-    width: 75%;
-    left: 650px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+    position: relative;
+    text-align: center;
 }
