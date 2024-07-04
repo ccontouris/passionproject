@@ -13,7 +13,7 @@
 .whybirds{
     display: inline-flex;
     font-family: 'Courier New', Courier, monospace;
-    justify-content: left;
+    float: left;
 }
 
 .community {
@@ -31,11 +31,12 @@
 }
 .video {
     position: relative;
-    left: 420px;
+    left: 361px;
 }
 .birdingspots {
     font-family: 'Courier New', Courier, monospace;
     font-size: smaller;
+    float: right;
     position: relative;
-    text-align: center;
+    top: 150px;
 }
